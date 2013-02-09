@@ -59,7 +59,7 @@ module Jasmine
         when '--keep'
           @options[:remove_html_file] = false
         when '--report'
-          warn REPORT_DEPRECATED_MESSAGE
+        #  warn REPORT_DEPRECATED_MESSAGE
 
           add_reporter('File', arg)
           add_reporter('Console')
